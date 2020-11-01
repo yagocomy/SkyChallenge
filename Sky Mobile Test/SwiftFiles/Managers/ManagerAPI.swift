@@ -9,9 +9,7 @@ import Foundation
 import Alamofire
 
 class ManagerAPI {
-    
     static let shared = ManagerAPI()
-    
     
     func getMovies(completionHandler: @escaping ([Movies]?) -> Void) {
         let apiURL = "https://sky-exercise.herokuapp.com/api/Movies"
